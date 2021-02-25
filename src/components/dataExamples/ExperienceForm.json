@@ -1,0 +1,85 @@
+[
+    {
+        "htmlFor":"role",
+        "name" :"role",
+        "id":"role",
+        "placeholder":"Ex: Retail Sales Manager",
+        "title":"Title",
+        "type": "text"        
+    },
+    {
+        "htmlFor":"employment",
+        "name" :"employment",
+        "id":"employment",
+        "placeholder":"Ex: Microsoft",
+        "title":"Employment type",
+        "as":"select",
+        "options":
+        [
+            "Full-time",
+            "Part-time",
+            "Self-employed",
+            "Freelance",
+            "Contract",
+            "Internship",
+            "Apprenticeship",
+            "Seasonal"
+        ]     
+    },
+    {
+        "htmlFor":"company",
+        "name" :"company",
+        "id":"company",
+        "placeholder":"Ex: Microsoft",
+        "title":"Company",
+        "type": "text"      
+    },
+    {
+        "htmlFor":"area",
+        "name" :"area",
+        "id":"area",
+        "placeholder":"Ex: London, United Kingdom",
+        "title":"Location",
+        "type": "text"            
+    },
+    {
+        "htmlFor":"headline",
+        "name" :"headline",
+        "id":"headline",
+        "placeholder":"Write your headline",
+        "title":"Headline",
+        "type": "text"             
+    },
+    {
+        "htmlFor":"description",
+        "name" :"description",
+        "id":"description",
+        "placeholder":"",
+        "title":"Description",
+        "as": "textarea",
+        "rows": 3            
+    },
+    {
+        "htmlFor":"startDate",
+        "name" :"startDate",
+        "id":"startDate",
+        "placeholder":"",
+        "title":"Start Date",
+        "type": "date"      
+    },
+    {
+        "htmlFor":"checkEnd",
+        "name" :"checkEnd",
+        "id":"checkEnd",
+        "type": "checkbox",
+        "title": "Are you working until now?"      
+    },
+    {
+        "htmlFor":"endDate",
+        "name" :"endDate",
+        "id":"endDate",
+        "placeholder":"",
+        "title":"End Date",
+        "type": "date"      
+    }
+]

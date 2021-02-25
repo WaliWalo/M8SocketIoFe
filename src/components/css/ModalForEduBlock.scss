@@ -1,0 +1,50 @@
+.modal-dialog {
+  width: 80vh;
+  height: 50vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  transition: margin-top 0.5s ease;
+  z-index: 10;
+  background-color: white;
+  .modal-content {
+    width: 100%;
+    .modal-header {
+      height: 50px;
+      align-items: center;
+      .modal-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+    }
+    .modal-body {
+      width: 100%;
+      height: 400px;
+      overflow-y: auto;
+      text-align: left;
+      .form-group {
+        label {
+          margin: 0;
+          font-size: 1rem;
+          color: rgba($color: #000000, $alpha: 0.6);
+        }
+        #description {
+          border: 0.5px solid rgba($color: #000000, $alpha: 0.3);
+        }
+        #checkEnd {
+          width: 10px;
+          height: 10px;
+        }
+      }
+    }
+  }
+}
+.modal-profile{
+  .modal-body{
+    .form-group{
+      margin-bottom: 1rem;
+      height: auto;
+    }
+  }
+}

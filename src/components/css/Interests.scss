@@ -1,0 +1,42 @@
+#interests {
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  border: 1px solid rgba($color: black, $alpha: 0.3);
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: white;
+  header {
+    text-align: left;
+    font-weight: 600;
+  }
+  .interests-body {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    .col-6 {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 0;
+      span:nth-of-type(1) {
+        margin-right: 0.5rem;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      span:nth-of-type(2) {
+        text-align: left;
+        p {
+          margin: 0;
+        }
+        p:nth-of-type(1) {
+          font-weight: 600;
+        }
+        p:nth-of-type(2) {
+          font-size: 0.7rem;
+          color: rgba($color: black, $alpha: 0.5);
+        }
+      }
+    }
+  }
+}

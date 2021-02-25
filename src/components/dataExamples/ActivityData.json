@@ -1,0 +1,24 @@
+[
+    {
+        "n" : "35",
+        "about" : "Followers"
+    },
+    {
+        "about" : "Activity Detail",
+        "img" : "https://i.ibb.co/pJgPCgV/workout.jpg",
+        "title" : "Workout",
+        "reactions-n": "5"
+    },
+    {
+        "about" : "Activity Detail",
+        "img" : "https://i.ibb.co/rkL3cgs/coding.jpg",
+        "title" : "Coding",
+        "reactions-n": "1"
+    },
+    {
+        "about" : "Activity Detail",
+        "img" : "https://i.ibb.co/StF386w/photography.jpg",
+        "title" : "Photography",
+        "reactions-n": "3"
+    }
+]

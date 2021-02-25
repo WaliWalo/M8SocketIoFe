@@ -1,0 +1,42 @@
+[
+    {
+        "htmlFor":"school",
+        "name" :"school",
+        "id":"school",
+        "placeholder":"",
+        "title":"school",
+        "type": "text"        
+    },
+    {
+        "htmlFor":"degree",
+        "name" :"degree",
+        "id":"degree",
+        "placeholder":"",
+        "title":"Degree",
+        "type": "text"      
+    },
+    {
+        "htmlFor":"study",
+        "name" :"study",
+        "id":"study",
+        "placeholder":"",
+        "title":"Field of study",
+        "type": "text"            
+    },
+    {
+        "htmlFor":"grade",
+        "name" :"grade",
+        "id":"grade",
+        "placeholder":"",
+        "title":"Grade",
+        "type": "text"             
+    },
+    {
+        "htmlFor":"description",
+        "name" :"description",
+        "id":"description",
+        "placeholder":"",
+        "title":"Description",
+        "as": "textarea"             
+    }
+]

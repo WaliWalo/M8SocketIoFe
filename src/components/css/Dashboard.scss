@@ -1,0 +1,94 @@
+#dashboard {
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  border: 1px solid rgba($color: black, $alpha: 0.3);
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: #dce6f1;
+  header {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    span:nth-of-type(1) {
+      h3 {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      p {
+        margin: 0;
+        font-size: 0.8rem;
+        color: rgba($color: black, $alpha: 0.5);
+        font-style: italic;
+      }
+    }
+    span:nth-of-type(2) {
+      display: flex;
+      align-items: center;
+      color: rgba($color: black, $alpha: 0.5);
+      font-size: 0.7rem;
+      .fa-medal {
+        margin-right: 0.3rem;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  .row {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    height: 5rem;
+    border: 1px solid rgba($color: black, $alpha: 0.3);
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 1rem;
+    .col-4 {
+      padding: 0.5rem;
+      p {
+        margin: 0;
+        text-align: left;
+      }
+      p:nth-of-type(1) {
+        font-size: 1.5rem;
+        font-weight: lighter;
+        color: #0a66c2;
+      }
+      p:nth-of-type(2) {
+        font-size: 0.7rem;
+      }
+    }
+    .col-4:nth-of-type(2) {
+      border-left: 1px solid rgba($color: black, $alpha: 0.1);
+      border-right: 1px solid rgba($color: black, $alpha: 0.1);
+    }
+  }
+  .row:nth-of-type(2) {
+    height: 3.5rem;
+    display: flex;
+    padding: 0.5rem;
+    span {
+      height: 100%;
+    }
+    span:nth-of-type(1) {
+      width: 2rem;
+      color: rgba($color: black, $alpha: 0.6);
+    }
+    span:nth-of-type(2) {
+      text-align: left;
+      p {
+        margin: 0;
+        font-size: 0.75rem;
+      }
+      p:nth-of-type(1) {
+        font-weight: 600;
+      }
+      p:nth-of-type(2) {
+        color: rgba($color: black, $alpha: 0.5);
+      }
+    }
+  }
+}

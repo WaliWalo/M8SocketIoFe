@@ -1,0 +1,64 @@
+[
+    {
+        "type":"Basic",
+        "list":[
+            "Creativity",
+            "Interpersonal Skills",
+            "Critical Thinking",
+            "Problem Solving",
+            "Public Speaking",
+            "Customer Service Skills",
+            "Teamwork Skills",
+            "Communication",
+            "Collaboration",
+            "Accounting",
+            "Active Listening",
+            "Adaptability",
+            "Negotiation",
+            "Conflict Resolution",
+            "Decision-making",
+            "Empathy",
+            "Customer Service",
+            "Decision Making",
+            "Management",
+            "Leadership Skills",
+            "Organization",
+            "Language skills"
+        ]
+    },
+    {
+        "type":"Coding",
+        "list":[
+            "Application Development",
+            "Architecture",
+            "Artificial Intelligence",
+            "Cloud Computing",
+            "HTML",
+            "C++",
+            "C Language",
+            "PHP",
+            "UX Design",
+            "Python",
+            "JavaScript",
+            "Java",
+            "Ruby"
+        ]
+    },
+    {
+        "type":"Networking",
+        "list":[
+            "IP Setup",
+            "Wireless Modems/Routers",
+            "Cloud Services",
+            "PHP",
+            "SQL",
+            "JavaScript",
+            "Python",
+            "C++",
+            "Functionality",
+            "Cyber Security",
+            "Information Management",
+            "Cloud Systems Administration"
+        ]
+    }
+]

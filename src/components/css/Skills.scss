@@ -1,0 +1,62 @@
+#skills {
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  border: 1px solid rgba($color: black, $alpha: 0.3);
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .modal-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    transition: margin-top 0.5s ease;
+    z-index: 10;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    span:nth-of-type(1) {
+      font-weight: 600;
+    }
+    span:nth-of-type(2) {
+      display: flex;
+      align-items: center;
+      input {
+        font-size: 0.8rem;
+        background-color: white;
+        border: none;
+        border-radius: 3px;
+        margin-right: 1rem;
+        color: rgba($color: black, $alpha: 0.7);
+      }
+      input:hover {
+        background-color: #f3f2ef;
+      }
+      .fa-pencil-alt {
+        color: #0a66c2;
+        border-radius: 50%;
+        padding: 0.2rem;
+        background-color: white;
+      }
+      .fa-pencil-alt:hover {
+        background-color: #9bc3eb91;
+      }
+    }
+  }
+  input {
+    background-color: white;
+    color: #307dde;
+    border: 1px solid #307dde;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  input:hover {
+    background-color: #9bc3eb91;
+  }
+}

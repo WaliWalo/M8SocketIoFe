@@ -1,0 +1,78 @@
+#create-post {
+  width: 100%;
+  // width: 40%;
+  // margin-left: 30%;
+  padding: 0.3rem 1rem;
+  background-color: white;
+  border: 1px solid rgba($color: #000000, $alpha: 0.3);
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  .start-post {
+    margin: 0.3rem 0;
+    button {
+      background-color: white;
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      padding: 0.5rem 1rem;
+      align-items: center;
+      border-radius: 30px;
+      border: 1px solid rgba($color: #000000, $alpha: 0.3);
+      color: rgba($color: #000000, $alpha: 0.6);
+      ion-icon {
+        font-size: 1.5rem;
+      }
+      p {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+    }
+    button:hover {
+      background-color: #dadada;
+    }
+  }
+  .upload-media {
+    margin: 0.3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 10px;
+      border: none;
+      background-color: white;
+      border-radius: 10px;
+      .fas,
+      .fab,
+      .far {
+        font-size: 1.3rem;
+        margin-right: 0.5rem;
+      }
+
+      .fa-image {
+        color: #70b5f9;
+      }
+      .fa-youtube {
+        color: #e7a33e;
+      }
+      .fa-calendar-alt {
+        color: #a0b4b7;
+      }
+      .fa-newspaper {
+        color: #7fc15e;
+      }
+
+      p {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: rgba($color: #000000, $alpha: 0.6);
+      }
+    }
+    button:hover {
+      background-color: #dadada;
+    }
+  }
+}
