@@ -26,11 +26,12 @@ export default class MsgSide extends PureComponent {
               <ul className="listUsers">
                 {this.props.users.map((user, i) => (
                   <li
-                    id={user}
+                    id={user._id}
+                    name={user.name}
                     key={i}
                     onClick={(e) => this.props.handleUserOnClick(e)}
                   >
-                    {user}
+                    {user.name}
                   </li>
                 ))}
               </ul>

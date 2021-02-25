@@ -6,14 +6,17 @@ export default class MainMsg extends PureComponent {
     allMsg: [],
   };
 
-  getMyMessages = async (username) => {
+  getMyMessages = async (roomName) => {
     try {
-      let response = await fetch(
-        `https://striveschool-api.herokuapp.com/api/messages/${username}`
-      );
+      console.log(roomName);
+      let response = await fetch(`http://localhost:4000/messages/${roomName}`);
       if (response.ok) {
         let data = await response.json();
-        return data;
+        if (data.length > 0) {
+          return data;
+        } else {
+          return [];
+        }
       } else {
         console.log(response);
       }
@@ -23,20 +26,21 @@ export default class MainMsg extends PureComponent {
   };
 
   async filterMessages() {
-    let myMessages = await this.getMyMessages(this.props.user);
-    let messageSent = myMessages.filter(
-      (msg) => msg.to === this.props.selectedUser
-    );
-    let messageReceived = myMessages.filter(
-      (msg) => msg.from === this.props.selectedUser
-    );
-    let allMsg = messageSent.concat(messageReceived);
-    let sorted = allMsg.sort(
-      (a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt)
-    );
-    console.log(sorted);
+    let myMessages = await this.getMyMessages(`${this.props.selectedRoom}`);
+    console.log(this.props.selectedRoom, myMessages);
+    // let messageSent = myMessages.filter(
+    //   (msg) => msg.to === this.props.selectedUser
+    // );
+    // let messageReceived = myMessages.filter(
+    //   (msg) => msg.from === this.props.selectedUser
+    // );
+    // let allMsg = messageSent.concat(messageReceived);
+    // let sorted = allMsg.sort(
+    //   (a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt)
+    // );
+    // console.log(sorted);
 
-    this.setState({ allMsg: sorted });
+    this.setState({ allMsg: myMessages });
   }
 
   async componentDidUpdate(prevProps, prevState) {
